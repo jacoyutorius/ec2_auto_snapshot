@@ -1,0 +1,16 @@
+{
+  "name": "delete_snapshot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "REGION=ap-northeast-1 mocha tests/unit/"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.275.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
+}

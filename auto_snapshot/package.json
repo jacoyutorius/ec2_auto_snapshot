@@ -1,0 +1,20 @@
+{
+  "name": "auto_snapshot",
+  "version": "1.0.0",
+  "description": "snapshot EC2",
+  "main": "app.js",
+  "repository": "",
+  "author": "SAM CLI",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.296.0",
+    "axios": "^0.18.0"
+  },
+  "scripts": {
+    "test": "REGION=ap-northeast-1 mocha tests/unit/"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
+}
